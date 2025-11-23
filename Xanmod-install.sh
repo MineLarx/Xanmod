@@ -13,4 +13,4 @@ echo "deb [signed-by=/etc/apt/keyrings/xanmod-archive-keyring.gpg] http://deb.xa
 sudo apt update
 
 # ABI Check
-wget -qO https://github.com/MineLarx/Xanmod/raw/refs/heads/master/check_x86-64_psabi.sh | chmod +x check_x86-64_psabi.sh && ./check_x86-64_psabi.sh
+wget https://github.com/MineLarx/Xanmod/raw/refs/heads/master/check_x86-64_psabi.sh && chmod +x check_x86-64_psabi.sh && ./check_x86-64_psabi.sh
